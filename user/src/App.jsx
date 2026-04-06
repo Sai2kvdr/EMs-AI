@@ -6,7 +6,7 @@ import AdminDashboard from "./Pages/AdminDashboard";
 import EmployeeDashboard from "./Pages/EmployeeDashboard";
 import Home from "./Pages/Home";
 import RoleBaseRoutes from "./Utils/RoleBaseRoutes";
-import PrivateRoutes from "./Utils/PrivateRoutes";
+import PrivateRoute from "./Utils/PrivateRoute";
 import AdminSummary from "./Components/dashboard/AdminSummary";
 import DepartmentList from "./Components/departments/DepartmentList";
 import AddDepartment from "./Components/departments/AddDepartment";
@@ -40,11 +40,11 @@ function App() {
       <Route path="/forgot-password" element={<ForgotPassword/>}></Route>
       <Route path="/reset-password" element={<ResetPassword/>}></Route>
       <Route path="/admin-dashboard" element={
-        <PrivateRoutes>
+        <PrivateRoute>
           <RoleBaseRoutes requiredRole={["admin"]}>
             <AdminDashboard/>
           </RoleBaseRoutes>
-        </PrivateRoutes>
+        </PrivateRoute>
         }>
           <Route index element={<AdminSummary/>}></Route>
           <Route path="/admin-dashboard/departments" element={<DepartmentList/>}></Route>
@@ -62,9 +62,9 @@ function App() {
           <Route path="/admin-dashboard/setting" element={<EmpSetting/>}></Route>
         </Route>
        <Route path="/employee-dashboard" element={
-        <PrivateRoutes><RoleBaseRoutes requiredRole={["Manager","Employee"]}>
+        <PrivateRoute><RoleBaseRoutes requiredRole={["Manager","Employee"]}>
           <EmployeeDashboard/>
-        </RoleBaseRoutes></PrivateRoutes>}>
+        </RoleBaseRoutes></PrivateRoute>}>
         <Route index element={<EmpSummary/>}></Route>
         <Route path="/employee-dashboard/profile/:id" element={<EmpProfile/>}></Route>
         <Route path="/employee-dashboard/leaves/:id" element={<LeaveList/>}></Route>
