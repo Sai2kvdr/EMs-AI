@@ -6,7 +6,7 @@ import AdminDashboard from "./Pages/AdminDashboard";
 import EmployeeDashboard from "./Pages/EmployeeDashboard";
 import Home from "./Pages/Home";
 import RoleBaseRoutes from "./Utils/RoleBaseRoutes";
-import PrivateRoutes from "./Utils/privateRoutes";
+import PrivateRoutes from "./Utils/PrivateRoutes";
 import AdminSummary from "./Components/dashboard/AdminSummary";
 import DepartmentList from "./Components/departments/DepartmentList";
 import AddDepartment from "./Components/departments/AddDepartment";
