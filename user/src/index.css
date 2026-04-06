@@ -1,0 +1,93 @@
+.logo-slider {
+  overflow: hidden;
+  width: 100%;
+  background: #f0f0f0;
+  padding: 5px 0;
+}
+
+.logo-track {
+  display: flex;
+  width: calc(200%); /* Two sets side by side */
+  animation: scroll 20s linear infinite;
+}
+
+.logo-set {
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo-set img {
+  height: 80px;
+  margin: 0 30px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+  background-color: rgb(210, 205, 198);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 900px;
+  color: #fff;
+}
+
+
+.image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1rem;
+}
+
+.welcome-img {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+.form-section {
+  flex: 1;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+} 
