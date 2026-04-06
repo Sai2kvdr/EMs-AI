@@ -55,7 +55,7 @@ const Login = () => {
               fontStyle: "normal"
             }}
           >
-            <img src="src/assets/Logo.png" alt="logo" width="60px" height="50px" />
+            <img src="/assets/Logo.png" alt="logo" width="60px" height="50px" />
             Remedy
           </h1>
         </div>
@@ -74,7 +74,7 @@ const Login = () => {
       <div className="login-page">
         <div className="login-container shadow-lg rounded-4 p-4 animate__animated animate__fadeInUp">
           <div className="image-section">
-            <img src="src/assets/lottie.jpg" alt="Welcome" className="welcome-img" width="400vw"/>
+            <img src="/assets/lottie.jpg" alt="Welcome" className="welcome-img" width="400vw"/>
           </div>
 
           <div className="form-section">

@@ -85,7 +85,7 @@ const ForgotPassword = () => {
       >
         <div>
           <h1 className="mb-0" style={{ fontFamily: '"Cinzel", serif', fontWeight: 700, fontStyle: "normal" }}>
-            <img src="src/assets/Logo.png" alt="logo" width="60px" height="50px" />
+            <img src="/assets/Logo.png" alt="logo" width="60px" height="50px" />
             Remedy
           </h1>
         </div>

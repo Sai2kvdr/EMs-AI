@@ -20,7 +20,7 @@ function Header() {
         fontFamily: '"Cinzel", serif',
         fontWeight: 700,  
         fontStyle: "normal"
-      }}><img src="src/assets/Logo.png" alt="logo" width="60px" height="50px" />Remedy</h1>
+      }}><img src="/assets/Logo.png" alt="logo" width="60px" height="50px" />Remedy</h1>
       </div>
       <div className='d-flex justify-content-between align-items-center gap-3'>
        <h6 style={{textShadow: "2px 2px 4px rgba(0,0,0,0.4)"}}><i className="bi bi-telephone text-primary"></i>+91 75000 75000 </h6> 
@@ -46,7 +46,7 @@ function Body(){
       </p>
     </div>
     <div className="col-sm-6 mb-5 mt-5 p-0">
-      <img src="src/assets/ems.png" alt="pic" className="img-fluid" style={{ width: "100%", height: "350px", objectFit: "contain" }}/>
+      <img src="/assets/ems.png" alt="pic" className="img-fluid" style={{ width: "100%", height: "350px", objectFit: "contain" }}/>
     </div>
   </div>
 </div>
@@ -59,18 +59,18 @@ function Logoslider(){
       <div className="logo-slider" style={{overflow: "hidden", position: "relative", width: "100%"}}>
       <div className="logo-track">
         <div className='logo-set'>
-        <img src="src/assets/client1.jpg" alt="Client 1" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client2.png" alt="Client 2" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client3.png" alt="Client 3" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client4.png" alt="Client 4" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client5.png" alt="Client 5" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client1.jpg" alt="Client 1" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client2.png" alt="Client 2" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client3.png" alt="Client 3" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client4.png" alt="Client 4" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client5.png" alt="Client 5" style={{width: "200px", height: "100px", objectFit: "contain"}} />
         </div>
         <div className='logo-set'>
-        <img src="src/assets/client4.png" alt="Client 1" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client2.png" alt="Client 2" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client1.jpg" alt="Client 3" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client3.png" alt="Client 4" style={{width: "200px", height: "100px", objectFit: "contain"}} />
-        <img src="src/assets/client5.png" alt="Client 5" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client4.png" alt="Client 1" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client2.png" alt="Client 2" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client1.jpg" alt="Client 3" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client3.png" alt="Client 4" style={{width: "200px", height: "100px", objectFit: "contain"}} />
+        <img src="/assets/client5.png" alt="Client 5" style={{width: "200px", height: "100px", objectFit: "contain"}} />
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@ function Cards(){
     <div className="row row-cols-1 row-cols-md-2 g-4 m-4">
   <div className="col">
     <div className="card">
-      <img src="src/assets/AI.png" className="card-img-top" alt="AI Integration"/>
+      <img src="/assets/AI.png" className="card-img-top" alt="AI Integration"/>
       <div className="card-body">
         <h5 className="card-title text-dark" style={{fontFamily: '"Cinzel", serif'}}>AI-Powered Insights</h5>
         <p className="card-text" style={{fontFamily: 'Times New Roman', fontSize: '18px'}}>
@@ -98,7 +98,7 @@ function Cards(){
   </div>
     <div className="col">
     <div className="card">
-      <img src="src/assets/emp.png" className="card-img-top" alt="Employee Dashboard"/>
+      <img src="/assets/emp.png" className="card-img-top" alt="Employee Dashboard"/>
       <div className="card-body">
         <h5 className="card-title " style={{fontFamily: '"Cinzel", serif'}}>Employee Dashboard</h5>
         <p className="card-text" style={{fontFamily: 'Times New Roman', fontSize: '18px'}}>
@@ -113,7 +113,7 @@ function Cards(){
   </div>
   <div className="col">
     <div className="card">
-      <img src="src/assets/leave.png" className="card-img-top" alt="Leave Management"/>
+      <img src="/assets/leave.png" className="card-img-top" alt="Leave Management"/>
       <div className="card-body">
          <h5 className="card-title" style={{fontFamily: '"Cinzel", serif'}}>Employee Directory</h5>
         <p className="card-text" style={{fontFamily: 'Times New Roman', fontSize: '18px'}}>
@@ -128,7 +128,7 @@ function Cards(){
   </div>
   <div className="col">
     <div className="card">
-      <img src="src/assets/emplist.png" className="card-img-top" alt="Employee Directory"/>
+      <img src="/assets/emplist.png" className="card-img-top" alt="Employee Directory"/>
       <div className="card-body">
          <h5 className="card-title" style={{fontFamily: '"Cinzel", serif'}}>Leave Management</h5>
         <p className="card-text" style={{fontFamily: 'Times New Roman', fontSize: '18px'}}>
