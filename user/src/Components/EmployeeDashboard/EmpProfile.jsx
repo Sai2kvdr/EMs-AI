@@ -126,7 +126,7 @@ const EmpProfile = () => {
                   <img
                     src={
                       employee.image
-                        ? `${import.meta.env.VITE_API_URL}/uploads/${employee.image}`
+                        ? (employee.image.startsWith('http') ? employee.image : `${import.meta.env.VITE_API_URL}/uploads/${employee.image}`)
                         : "https://i.pravatar.cc/150"
                     }
                     alt={employee.userId?.name || "Employee"}

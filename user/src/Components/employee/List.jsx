@@ -190,7 +190,7 @@ const List = () => {
                         <img
                           src={
                             emp.image
-                              ? `${import.meta.env.VITE_API_URL}/uploads/${emp.image}`
+                              ? (emp.image.startsWith('http') ? emp.image : `${import.meta.env.VITE_API_URL}/uploads/${emp.image}`)
                               : "https://i.pravatar.cc/40"
                           }
                           alt={emp.userId?.name || "Employee"}
